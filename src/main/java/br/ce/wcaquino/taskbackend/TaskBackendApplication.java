@@ -9,6 +9,8 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 public class TaskBackendApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
+
+		System.out.println("Apenas um teste!");
 		SpringApplication.run(TaskBackendApplication.class, args);
 	}
 
